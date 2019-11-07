@@ -1,0 +1,12 @@
+server:
+  port: 8989
+  servlet:
+    context-path: /cmfz
+  datasource:
+    type: org.apache.commons.dbcp.BasicDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: root
+mybatis:
+  type-aliases-package: com.baizhi.entity
